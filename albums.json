@@ -1,4 +1,5 @@
-albums = [
+
+[    
     {
         "Album_Title": "Thriller",
         "Artist": "Michael Joseph Jackson",
