@@ -1,0 +1,20 @@
+albums = [
+    {
+        "Album_Title": "Thriller",
+        "Artist": "Michael Joseph Jackson",
+        "Songs": ["The Girl Is Mine","Billie Jean"," Beat It"," Wanna Be Startin' Somethin'"," Human Nature"],
+        "Year": 1983
+    },
+    {
+        "Album_Title": "Back in Black",
+        "Artist": "AC/DC",
+        "Songs": ["If You Want Blood You've Got It","Let There Be Rock ","Hells Bells","Rock and Roll Ain't Noise Pollution","Let Me Put My Love into You"],
+        "Year": 1980
+    },
+    {
+        "Album_Title": "The Dark Side of the Moon",
+        "Artist": "Pink Floyd",
+        "Songs": ["Speak to Me","Breathe"," Don't be afraid to care"," On the Run","Time"],
+        "Year": 1973
+    }
+]
