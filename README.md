@@ -22,13 +22,10 @@ Coursework and projects for **DAV 5400** (M.S. Data Analytics & Visualization, Y
 | M10 | Data reshaping (melt/pivot) |
 | Project 1 / 3 / 4 / Final | see standalone repos above |
 
-This repo also hosts some of the raw datasets loaded by the course notebooks via `raw.githubusercontent.com` URLs.
+The module notebooks live in [`notebooks/`](notebooks). This repo also hosts some of the raw datasets loaded by the course notebooks via `raw.githubusercontent.com` URLs.
 
-## ⚠️ Security note (action required)
-The Module 9 / Project 2 web-scraping notebook historically contained a **hard-coded `newsdata.io` API key**. If that notebook is in this repo's history:
-1. **Rotate the key** at newsdata.io (assume it is compromised).
-2. Replace it with an environment variable (`os.environ["NEWSDATA_KEY"]`).
-3. Scrub it from git history if feasible (`git filter-repo`).
+## ⚠️ Security note
+The Module 9 / Project 2 web-scraping notebook (`notebooks/Fnu_NikkatAfrin_P2_Assn.ipynb`) originally contained a hard-coded `newsdata.io` API key. The key has been **removed from the notebook** in this repo (replaced with a `YOUR_NEWSDATA_KEY` placeholder — set your own key, e.g. via `os.environ["NEWSDATA_KEY"]`). Since the old key was previously exposed, it should still be **rotated** at newsdata.io.
 
 ## 🛠️ Tech stack
 `Python` · `pandas` · `NumPy` · `BeautifulSoup` · `requests` · `Matplotlib` · `Seaborn`
