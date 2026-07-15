@@ -29,3 +29,7 @@ The Module 9 / Project 2 web-scraping notebook (`notebooks/Fnu_NikkatAfrin_P2_As
 
 ## 🛠️ Tech stack
 `Python` · `pandas` · `NumPy` · `BeautifulSoup` · `requests` · `Matplotlib` · `Seaborn`
+
+## Additional notebooks
+
+Two more course notebooks were consolidated here from other repositories: `notebooks/html_json_scraping_apis.ipynb` (HTML/JSON parsing, web scraping, APIs) and `notebooks/customer_analytics_raw_to_insights.ipynb` (end-to-end customer analytics from raw data).
